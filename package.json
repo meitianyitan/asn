@@ -1,0 +1,43 @@
+{
+  "name": "asn",
+  "version": "0.0.2",
+  "description": "An enterprise-class UI design language and React-based implementation",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ],
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config .jest.js --verbose=false"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meitianyitan/asn.git"
+  },
+  "keywords": [
+    "asn",
+    "react",
+    "react-component",
+    "component",
+    "components",
+    "ui",
+    "framework",
+    "frontend"
+  ],
+  "author": "Weich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meitianyitan/asn/issues"
+  },
+  "homepage": "https://github.com/meitianyitan/asn#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
